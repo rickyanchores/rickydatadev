@@ -1,8 +1,12 @@
 @import "./Components/Nav/Nav.scss";
 @import "./Pages/Home/Home.scss";
+@import "./Pages/Projects/Projects.scss";
+@import "./Pages/Services/Services.scss";
+@import "./Components/Banner/Banner.scss";
+
 
 body{
-  background: #ccc;
+  background: #c3c3c3;
   color: #333;
   font-family: 'Courier New', Courier, monospace;
 }
