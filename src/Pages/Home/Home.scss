@@ -1,0 +1,16 @@
+.Home{
+    .Hero{
+        background: #c0b8b8;
+        width: 1200px;
+        height: 680px;
+        padding: 1em;
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        color: #333 ;
+        h1{
+            color: rgb(225, 103, 59);
+        }
+    }
+}
