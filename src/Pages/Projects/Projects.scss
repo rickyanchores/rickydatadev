@@ -1,4 +1,9 @@
 .Projects{
-    height: 100vh;
     background: #afafaf;
+    padding: 1em;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
