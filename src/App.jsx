@@ -5,6 +5,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Projects from './Pages/Projects/Projects';
 import Services from './Pages/Services/Services';
 import Banner from './Components/Banner/Banner';
+import Footer from './Pages/Footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         <Banner />
         <Services />
         <Projects />
+        <Banner />
+        <Footer />
       </Router>
     </div>
   )
