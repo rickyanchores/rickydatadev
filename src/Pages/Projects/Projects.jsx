@@ -4,7 +4,7 @@ import Card from '../../Components/Card/Card'
 const Projects = (card) => {
   return (
     <div className='Projects'>
-      <h3>Projects</h3>
+      <h3>Portfolio</h3>
       <div className="container">
         <Card name="Card 1" text="Hello"/>
         <Card name="Card 2" text="Hi"/>

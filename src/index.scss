@@ -4,11 +4,23 @@
 @import "./Pages/Services/Services.scss";
 @import "./Components/Banner/Banner.scss";
 @import "./Components/Card/Card.scss";
+@import "./Pages/About/About.scss";
 @import "./Pages/Footer/Footer.scss";
 
 
+
+// FONTS
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
   background: #c3c3c3;
   color: #333;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Comfortaa', sans-serif;
 }

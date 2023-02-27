@@ -1,14 +1,14 @@
-.Footer{
-    background: black;
-    color: whitesmoke;
+.About{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5em;
+    margin-top: 1em;
+    background: #e2e2e2;
     .circle{
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        background-color: whitesmoke;
+        background-color: coral;
     }
 }

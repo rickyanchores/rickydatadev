@@ -6,6 +6,7 @@ import Projects from './Pages/Projects/Projects';
 import Services from './Pages/Services/Services';
 import Banner from './Components/Banner/Banner';
 import Footer from './Pages/Footer/Footer';
+import About from './Pages/About/About';
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         <Banner />
         <Services />
         <Projects />
-        <Banner />
+        <About />
         <Footer />
       </Router>
     </div>

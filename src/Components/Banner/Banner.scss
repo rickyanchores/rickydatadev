@@ -1,5 +1,27 @@
 .Banner{
-    background: #333;
     color: whitesmoke;
     padding: 5em;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .circle-1{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(22, 22, 22);
+    }
+    .circle-2{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    .circle-3{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: coral;
+    }
 }
