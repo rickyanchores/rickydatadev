@@ -21,7 +21,7 @@ const Nav = () => {
   
   return (
     <div className='Nav'>
-        <h3>Nav</h3>
+        <h3>Ricky A</h3>
         <div className="navLinks">
         {navList.map((link) => {
           return(
