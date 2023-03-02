@@ -2,16 +2,18 @@
     height: 100vh;
     .Hero{
         background: #e2e2e2;
-        width: 1200px;
-        height: 680px;
+        width: 80%;
+        height: 100%;
         padding: 1em;
         margin: auto;
         display: grid;
         justify-items: center;
         align-items: center;
         color: #333 ;
-        h1{
-            color: rgb(225, 103, 59);
+        .title{
+            h1{
+                color: rgb(225, 103, 59);
+            }
         }
     }
 }
