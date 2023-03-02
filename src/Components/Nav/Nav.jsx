@@ -10,8 +10,8 @@ const Nav = () => {
       href: "/"
     },
     {
-      name: "Projects",
-      href: "/projects"
+      name: "Portfolio",
+      href: "/portfolio"
     },
     {
       name: "About",
