@@ -15,6 +15,12 @@
                 color: rgb(225, 103, 59);
             }
         }
+        .title:hover{
+            h1{
+                color: coral;
+                cursor: pointer;
+            }
+        }
     }
 }
 
