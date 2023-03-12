@@ -4,10 +4,10 @@ import {useEffect,useState} from "react";
 
 const Test = () => {
 
-    const [data,setData] = useState([]);
+    const [dogData,setData] = useState([]);
 
     const fetchData = async () => {
-        let url = ""
+        let url = "https://dog.ceo/api/breeds/image/random"
         try{
             let response = await fetch(url)
             let data = await response.json()
@@ -19,13 +19,15 @@ const Test = () => {
     }
 
     useEffect(() => {
-        fetchData()
+        fetchData(dogData)
     },[]);
 
 
   return (
     <div className="Test">
-        <h1>{data.id}</h1>
+        <div className="result">
+            <img src={dogData.message} alt="" />
+        </div>
         <button className="btn" onClick={fetchData}>Click Here</button>
     </div>
   )
